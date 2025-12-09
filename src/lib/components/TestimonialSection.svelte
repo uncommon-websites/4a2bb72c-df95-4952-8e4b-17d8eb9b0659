@@ -18,22 +18,22 @@
             <!-- Quote Content -->
             <div class="pr-8">
                 <div class="mb-8">
-                    <span class="text-sm font-bold tracking-widest uppercase">NOMURA</span>
+                    <span class="text-sm font-bold tracking-widest uppercase">BRIGHTON SUPPLY CO.</span>
                 </div>
                 <blockquote class="text-2xl md:text-3xl font-light text-gray-900 leading-relaxed mb-12">
-                    "Our strategic integration of Rogo transforms how we deliver value to clients. Rogo enables our teams to analyze market data and identify opportunities with unprecedented speed and precision, while allowing our bankers to focus more deeply on client relationships and strategic advisory."
+                    "Ezra integrated directly into our existing ERP system with almost no setup time. It took over the repetitive data entry that used to slow down our team and helped us respond faster across purchasing and inventory. We're running smoother workflows with fewer errors and saving hours every week."
                 </blockquote>
                 <div>
-                    <div class="font-medium text-gray-900">Patrice Maffre</div>
-                    <div class="text-[10px] uppercase tracking-widest text-gray-500 mt-1">International Head of Investment Banking, Nomura</div>
+                    <div class="font-medium text-gray-900">Laura Chen</div>
+                    <div class="text-[10px] uppercase tracking-widest text-gray-500 mt-1">Director of Operations, Brighton Supply Co.</div>
                 </div>
             </div>
 
             <!-- Image -->
             <div class="relative h-[600px] w-full overflow-hidden">
                 <img 
-                    src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=2071&auto=format&fit=crop" 
-                    alt="Business people walking" 
+                    src="/generated/image-confident-warehouse-operations-manager-i-1765320107464-2.webp" 
+                    alt="Operations manager" 
                     class="absolute inset-0 h-full w-full object-cover grayscale contrast-125"
                 />
             </div>

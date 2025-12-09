@@ -6,7 +6,7 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mb-20">
             <h2 class="text-4xl md:text-5xl font-serif text-gray-900 leading-tight max-w-4xl">
-                Just as Bloomberg digitized financial data in the 1980s, <span class="font-semibold">Rogo is now transforming financial workflows.</span>
+                While ERP systems digitized business data, <span class="font-semibold">Commerce Systems is now automating the workflows that run on them.</span>
             </h2>
         </div>
 
@@ -15,8 +15,8 @@
             <div class="relative">
                 <div class="relative rounded-lg overflow-hidden shadow-2xl bg-gray-900 aspect-[4/3]">
                     <img 
-                        src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop" 
-                        alt="City buildings" 
+                        src="/generated/image-operations-manager-reviewing-data-on-com-1765320104587-1.webp" 
+                        alt="Operations manager reviewing data" 
                         class="absolute inset-0 w-full h-full object-cover opacity-40 mix-blend-overlay"
                     />
                     
@@ -24,10 +24,10 @@
                     <div class="absolute inset-0 flex items-center justify-center p-8">
                         <div class="bg-white rounded-lg shadow-xl w-full max-w-md p-6">
                             <div class="flex items-center gap-3 mb-4">
-                                <div class="h-8 w-8 bg-blue-600 rounded flex items-center justify-center text-white">
+                                <div class="h-8 w-8 bg-gray-900 rounded flex items-center justify-center text-white">
                                     <Database size={16} />
                                 </div>
-                                <span class="font-medium text-gray-900">Market data</span>
+                                <span class="font-medium text-gray-900">ERP Integration</span>
                             </div>
                             <div class="space-y-2">
                                 <div class="h-2 bg-gray-100 rounded w-3/4"></div>
@@ -46,19 +46,19 @@
             <!-- Right: Features List -->
             <div class="space-y-12">
                 <h3 class="text-2xl font-serif text-gray-900">
-                    An Integrated, Secure Platform <br/> Built to Drive Your Firm Forward
+                    AI Agents That Integrate Seamlessly <br/> With Your Existing Systems
                 </h3>
 
                 <div class="space-y-8">
                     {#each [
-                        { id: '01', title: 'All your content in one place', icon: Database },
-                        { id: '02', title: 'Transparent, auditable sources', icon: Search },
-                        { id: '03', title: 'Automate your workflows', icon: Settings },
-                        { id: '04', title: 'Proprietary document interrogation', icon: FileText }
+                        { id: '01', title: 'Direct ERP integration', icon: Database },
+                        { id: '02', title: 'Eliminate manual data entry', icon: Search },
+                        { id: '03', title: 'Automate order workflows', icon: Settings },
+                        { id: '04', title: 'Real-time inventory sync', icon: FileText }
                     ] as feature}
                         <div class="flex items-start gap-4 group cursor-pointer">
                             <div class="flex-shrink-0 relative">
-                                <div class="h-10 w-10 rounded-full border border-gray-200 flex items-center justify-center text-xs font-mono text-gray-500 group-hover:border-black group-hover:text-black transition-colors bg-white z-10 relative">
+                                <div class="h-10 w-10 rounded-full border border-gray-200 flex items-center justify-center text-xs font-mono text-gray-500 group-hover:border-gray-900 group-hover:text-gray-900 transition-colors bg-white z-10 relative">
                                     {feature.id}
                                 </div>
                                 {#if feature.id !== '04'}

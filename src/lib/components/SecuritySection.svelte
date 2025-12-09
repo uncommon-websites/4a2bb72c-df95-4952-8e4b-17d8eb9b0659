@@ -2,7 +2,7 @@
     import { Lock, Shield, Eye, FileCheck } from 'lucide-svelte';
 </script>
 
-<section class="bg-[#111111] text-white py-24">
+<section class="bg-gray-900 text-white py-24">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <!-- Left Content -->
@@ -12,30 +12,30 @@
                     <span class="text-xs font-mono uppercase tracking-widest text-gray-400">Security</span>
                 </div>
 
-                <h2 class="text-4xl md:text-5xl font-serif mb-2">Built for Enterprise</h2>
-                <h2 class="text-4xl md:text-5xl font-serif mb-12">Secure by Design</h2>
+                <h2 class="text-4xl md:text-5xl font-serif mb-2">Enterprise-Grade Security</h2>
+                <h2 class="text-4xl md:text-5xl font-serif mb-12">For Your Business Data</h2>
 
                 <div class="space-y-4 mb-12">
                     <div class="flex items-center gap-3">
                         <Lock size={16} class="text-gray-400" />
-                        <span class="text-sm font-medium">No training on your data</span>
+                        <span class="text-sm font-medium">Your data never trains our models</span>
                     </div>
                     <div class="flex items-center gap-3">
                         <Shield size={16} class="text-gray-400" />
-                        <span class="text-sm font-medium">Modern & secure data practices</span>
+                        <span class="text-sm font-medium">SOC 2 Type II certified</span>
                     </div>
                     <div class="flex items-center gap-3">
                         <Eye size={16} class="text-gray-400" />
-                        <span class="text-sm font-medium">End to end encryption</span>
+                        <span class="text-sm font-medium">End-to-end encryption</span>
                     </div>
                     <div class="flex items-center gap-3">
                         <FileCheck size={16} class="text-gray-400" />
-                        <span class="text-sm font-medium">Audited & tested</span>
+                        <span class="text-sm font-medium">Regular security audits</span>
                     </div>
                 </div>
 
                 <a href="#security" class="inline-flex items-center text-sm font-medium text-white hover:text-gray-300 transition-colors">
-                    Find out more <span class="ml-2">↗</span>
+                    Learn about our security <span class="ml-2">↗</span>
                 </a>
             </div>
 
